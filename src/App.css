@@ -1,0 +1,23 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+body{
+  background-color: #dce4e4;
+  overflow: hidden;
+}
+.search{
+  float: right;
+  position: relative;
+  z-index: 1;
+}
+.header{
+  background: transparent;
+  z-index: 1;
+  float: top;
+  position: absolute;
+  
+}
+

@@ -1,0 +1,121 @@
+.homescreen{
+    display: flex;
+    width: 100%;
+}
+.firsthalf{
+    width: 50%;
+    height: 100%;
+    background-image:radial-gradient(farthest-side at 50px 700px,#71c4b2,#d7ebf6 );
+    box-shadow: 10px 0px 25px 20px #d7ebf6;
+    z-index: 3;
+}
+.secondhalf{
+    width: 50%;
+    height: 100%;
+    background-image:radial-gradient(closest-side at 320px 500px,#7dbdbd,#d3e7e7 );
+
+}
+.title{
+    letter-spacing: 6px;
+    font: bold;
+    padding: 15% 30px 1%;
+    text-align: left;
+    font-size: 68px;
+    font-weight: 100;
+    
+    
+}
+.evb{
+    color: rgba(38, 158, 142, 0.721);
+    
+}
+.description{
+    text-align: left;
+    font-size: 18px;
+    padding: 3% 30px 1%;
+    position: relative;
+}
+.smalldesc{
+    color:  rgba(38, 158, 142, 0.721);
+    font-size: 40px;
+}
+.circle{
+   
+    border: none;
+    outline: none;
+
+    left: 160px;
+    bottom: 75px;
+    position: relative;
+    width: 290px;
+    height: 2px;
+    border-radius: 50%;
+  
+    box-shadow:0.5px 33px 20px 8px;
+}
+.cyclepic{
+  margin: 4%;
+  overflow: hidden;
+  width: 70%;
+  height: 40%;
+  border-radius: 30%;
+  position: relative;
+  
+  object-fit: cover;  
+  margin-left: -180px;
+  z-index: -1;
+  mix-blend-mode: multiply;
+}
+.book{
+    font-size: large;
+  
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 4vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    background-image: linear-gradient(to right, #7ed0d5 35%, #51aeb0);
+    padding-bottom: 1rem;
+    bottom: 190px;  
+    left: 400px;
+}
+.reversecyclepic{
+
+    width: 126%;
+    height: 70%;
+    transform: scaleX(-1);
+    margin-left: -350px;
+    margin-top: 40px;
+}
+.rating{
+    width: 30%;
+    height:8%;
+    text-align: center;
+    font-size: large;
+    position: relative;
+    color: #fff;
+    outline: none;
+    border: none;
+    top: 100px;
+    left: 450px;
+    padding: 0.2rem;
+    background-color: #5fc9a9;
+}
+.circlee{
+    z-index: -44;
+    border: none;
+    outline: none;
+    left: 90px;
+    bottom: 90px;
+    position: relative;
+    width: 180px;
+    height: 2px;
+    border-radius: 50%;
+    box-shadow:0.5px 33px 20px 7px;
+}
+
+

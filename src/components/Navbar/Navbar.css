@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    gap: 34%;
+    background-color: transparent;
+    z-index: 99;
+}
+.logo{
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.navbar-menu{
+    text-decoration: none;
+    padding-top: 2rem;
+    display: flex;
+    cursor: pointer;
+    list-style: none;
+    font-size: 17px;
+    gap: 30%;
+    color: #6b789b;
+}
+.banner_button{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 1vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    background-image: linear-gradient(to right, #59c9b2 30%, #32ebaf);
+    padding-bottom: 0.5rem;
+
+
+}
+.banner_button:hover{
+
+    transition: transform 300ms;
+    transform: scale(1.15);
+   
+} 
+.active{
+    font-weight: 700;
+    color: #516464;
+}

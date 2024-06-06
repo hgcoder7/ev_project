@@ -1,0 +1,117 @@
+
+.halfcircle{
+    color: #fff;
+    font-family: NanumGothic;
+    font-size: 208px;
+    padding-top: 800px;
+    padding-left: 250px;
+    font-weight:700 ;
+    
+    bottom: 1338px;
+    left: 590px;
+background-color: #ccdeeb;
+width: 1300px;
+height: 1400px;
+border-radius: 50%;
+position: relative;
+}
+.content{
+    font-family: Inter;
+    letter-spacing: 4px;
+    font-size: 14px;
+    z-index: 9;
+    height: 40%;
+    padding-left: 44px;
+    padding-right: 99px;
+    padding-top: 300px;
+    padding-bottom: 55px;
+}
+.future{
+    font-size: 105px;
+}
+.small_content{
+    font-size: 51px;
+}
+.pre_order{
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 2vw;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    background-image: linear-gradient(to right, #59c9b2 30%, #32ebaf);
+    padding-bottom: 1rem;
+    top: 30px;
+    left: 50px;
+}
+.features{
+    
+    margin-right: 1000px;
+    border-radius: 15px;
+   
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px); 
+ 
+    z-index: 2;
+    font-weight: 700;
+    font-family: Inter;
+    position: relative;
+    display: flex;
+    top: 50px;
+    left: 750px;
+    padding: 1rem;
+    gap: 20%;
+}
+.speed{
+    font-weight: 1;
+    
+}
+.battery_usage{
+    font-weight: 1;
+}
+.time{
+    font-weight: 1;
+}
+.img{
+    z-index: 33;
+    position: absolute;
+    top: 150px;
+    left: 530px;
+}
+.buttons{
+    position: relative;
+    z-index: 1;
+    bottom: 1340px;
+    font-family: Inter;
+}
+.previous{
+    cursor: pointer;
+    font-size: 30px;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    margin-left: 80px;
+}
+
+.next{
+    cursor: pointer;
+    font-size: 30px;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    margin-left: 1070px;
+}
+.pre{
+    position: relative;
+    font-size: 14px;
+    bottom: 9px;
+}
+.nex{
+    position: relative;
+    font-size: 14px;
+    bottom: 9px;
+    right: 1px;
+}

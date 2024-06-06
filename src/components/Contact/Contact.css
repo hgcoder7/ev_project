@@ -1,0 +1,176 @@
+.backcolor{
+    /* z-index: 1; */
+    position: relative;
+    background-color: #cbdeec;
+    width: 1890px;
+    height: 822px;
+    bottom: 500px;
+    right: 200px;
+    transform: rotateZ(160deg);
+}
+.contactbox{
+    position: relative;
+    background-color: #fff;
+    width: 989px;
+    height: 600px;
+    border-radius: 85px;
+    top: -700px;
+    left: 257px;
+}
+.contact_heading{
+    position: relative;
+    color: #68d0ac;
+    font-size: 40px;
+    font-family: nanumgothic;
+    font-weight: 800;
+    top: 40px;
+    left: 55px;
+}
+.para{
+    position: absolute;
+    font-size: 20px;
+    top: 90px;
+    left: 60px;
+}
+#name{
+    font-family: Inter;
+    position: absolute;
+    font-size: 20px;
+    top: 130px;
+    left: 60px;
+    width: 450px;
+    height: 50px;
+    
+    padding-right:1rem; 
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    /* outline: none; */
+    border: none;
+    background-color: #eeeeee;
+}
+#email{
+    font-family: Inter;;
+    position: absolute;
+    font-size: 20px;
+    top: 200px;
+    left: 60px;
+    width: 450px;
+    height: 50px;
+    padding-right:1rem; 
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    /* outline: none; */
+    border: none;
+    background-color: #eeeeee;
+    
+}
+#listening{
+    font-family: Inter;
+    position: absolute;
+    font-size: 20px;
+    top: 270px;
+    left: 60px;
+    width: 450px;
+    height: 200px;
+    /* margin-top: 1rem; */
+    padding-right:1rem; 
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    /* outline: none; */
+    border: none;
+    background-color: #eeeeee;  
+    resize: none;
+}
+#submit{
+    cursor: pointer;
+    font-family: Inter;
+    color: #fff;
+    font-size: 36px;
+    background-color:#68d0ac;
+    border-radius: 1.5vw;
+position: absolute;
+top: 490px;
+left: 60px;
+outline: none;
+border: none;
+width: 450px;
+height: 60px;
+/* padding-right:5.2rem; 
+padding-top: 0.5rem;
+padding-left: 5.2rem;
+padding-bottom: 0.5rem;
+} */
+}
+.login{
+    position: relative;
+    top: 10px;
+    left: 530px;
+    width: 45%;
+    height: 50%;
+}
+.symbol1{
+    
+    position: relative;
+   
+}
+.location{
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    top: 10px;
+    left: 550px;
+
+}
+.location_address{
+    font-family: Inter;
+    font-size: 20px;
+position: absolute;
+top: 35px;
+left: 630px;
+width: 303px;
+}
+.symbol2{
+    
+    position: absolute;
+   
+}
+.mail{
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    top: 90px;
+    left: 560px;
+
+}
+.mail_address{
+    font-family: Inter;
+    font-size: 20px;
+position: absolute;
+top: 100px;
+left: 630px;
+width: 303px;
+}
+.symbol3{
+    
+    position: absolute;
+   
+}
+.phone{
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    top: 130px;
+    left: 540px;
+
+}
+.phone_address{
+font-family: Inter;
+font-size: 20px;
+position: absolute;
+top: 160px;
+left: 630px;
+width: 303px;
+}

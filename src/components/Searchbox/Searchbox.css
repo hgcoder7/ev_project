@@ -1,0 +1,41 @@
+.lasthalf{
+    width: 100%;
+    position: relative;
+    max-height: 100%;
+}
+.firstlast{
+    position: block;
+    word-spacing:14px ;
+    letter-spacing: 10px;
+height: 425px;
+font-size:20px;
+color: #fff;
+padding: 105px 23px 55px 23px;
+writing-mode: vertical-lr;
+  white-space: nowrap; 
+background-image: linear-gradient(to bottom, #99dde5 35%, #31a1a1);
+}
+.secondlast{
+    letter-spacing: 12px;
+    position: block;
+height: 410px;
+font-size:20px;
+color: #fff;
+padding: 95px 23px 55px 23px;
+writing-mode: vertical-lr;
+
+white-space: nowrap; 
+background-image: linear-gradient(to bottom, #8dceb6 35%, #24bd86);
+}
+.searching{
+    cursor: pointer;
+    color:#fff;
+    width: 3rem;
+    height: 3rem;
+    z-index: 2;
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    background-color: transparent;
+    
+}
